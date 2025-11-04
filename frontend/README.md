@@ -1,31 +1,61 @@
-# Frontend Implementation
+# Football Events Viewer - Frontend
 
-This is where you should implement your frontend solution for the take-home challenge.
+A real-time football events viewer built with React, TypeScript, and Tailwind CSS. This application displays live football event data (kicks and passes) from a WebSocket stream, combined with player information from a REST API.
 
-## Tech Stack Requirements
+## Tech Stack
 
-You must use:
-- **React** with **TypeScript**
-- **Tailwind CSS** for styling
+- **React 19**
+- **TypeScript**
+- **Tailwind CSS**
+- **Vite**
+- **Vitest**
+- **React Testing Library**
 
-## Backend Connection
+## Prerequisites
 
-Make sure the backend server is running on http://localhost:8888 before starting your frontend development.
+- Node.js (v14 or higher)
+- npm or yarn
+- Backend server running on `http://localhost:8888`
+
+## Installation
+
+1. Install dependencies:
+```bash
+npm install
+```
+
+## Running the Application
+
+### Start the Backend First
+
+Make sure the backend server is running before starting the frontend:
 
 ```bash
-# In a separate terminal
-cd ../backend
+# In a separate terminal, from the project root
+cd backend
 npm install
 npm start
 ```
 
-## Your Implementation
+The backend should be running on `http://localhost:8888`.
 
-Replace this README with your own documentation that includes:
-- How to install and run your application
-- How to run tests
-- Key design decisions and architectural choices
-- Any assumptions you made
-- Optional improvements you'd make with more time
+### Start the Frontend
 
-Good luck! 🚀
+```bash
+npm run dev
+```
+
+The application will open at `http://localhost:3000`.
+
+## Running Tests
+
+```bash
+# Run tests once
+npm test
+
+# Run tests in watch mode
+npm run test:watch
+
+# Run tests with UI
+npm run test:ui
+```
