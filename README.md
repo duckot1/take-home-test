@@ -37,17 +37,6 @@ Complete the following tasks in order. The basic project setup (React, TypeScrip
 
 - Write comprehensive tests for the table component
 
-## Evaluation Criteria
-
-We'll evaluate your submission based on:
-
-- **Correctness** — Does the app meet the functional requirements?
-- **Performance** — Can it handle large event sets efficiently?
-- **Code quality** — Is it readable, modular, and maintainable?
-- **Error handling & resilience** — Does it deal gracefully with API/WS errors?
-- **Testing** — Are core components or interactions tested?
-- **User experience** — Is the interface clear, usable, and thoughtfully designed?
-
 ## Notes
 
 - You may choose any frameworks, libraries, or patterns you find appropriate.

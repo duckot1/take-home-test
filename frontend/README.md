@@ -4,12 +4,12 @@ A real-time football events viewer built with React, TypeScript, and Tailwind CS
 
 ## Tech Stack
 
-- **React 19** - UI framework
-- **TypeScript** - Type safety and better developer experience
-- **Tailwind CSS** - Utility-first CSS framework for styling
-- **Vite** - Fast build tool and development server
-- **Vitest** - Unit testing framework
-- **React Testing Library** - Component testing utilities
+- **React 19**
+- **TypeScript**
+- **Tailwind CSS**
+- **Vite**
+- **Vitest**
+- **React Testing Library**
 
 ## Prerequisites
 
